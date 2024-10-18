@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="https://kit.fontawesome.com/a576612222.css" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="/css/master.css">
+    
         <title>Silicon</title>
 </head>
 
@@ -86,77 +87,52 @@
         <img class="back-pic" src="images/logo/iPhone -card.svg" alt="phone-picture">
         <img class="front-pic" src="images/logo/card.svg" alt="card-picture">
     </div>
-    <div class="feauters">
-        <div class="txt">
+    <section class="app-feaures">
+    <div class="container">
             <h2>App Features</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin volutpat mollis egestas. Nam
                 luctus facilisis ultrices. Pellentesque volutpat ligula est. Mattis fermentum, at nec lacus.</p>
         </div>
-        <div class="icon">
-            <div class="first">
-                <div class="pay">
-                    <figure>
-                        <img src="images/logo/icon-1.svg" alt="">
-                        <figcaption>
-                            <h3>Easy Payments</h3>
-                            <p>Id mollis consectetur congue egestas egestas suspendisse blandit justo.</p>
-                        </figcaption>
-                    </figure>
+        <div class="feature-grid">
+        <div class="icon-box">
+                <div id="pay" class="icon-box">
+                <img src="images/logo/icon-1.svg" alt="">
+                 <h3>Easy Payments</h3>
+              <p>Id mollis consectetur congue egestas egestas suspendisse blandit justo.</p>
                 </div>
-                <div class="data">
-                    <figure>
-                        <img src="images/logo/icon-4.svg" alt="">
-                        <figcaption>
-                            <h3>Data Security</h3>
-                            <p>Augue pulvinar justo, fermentum fames aliquam accumsan vestibulum non. </p>
-                        </figcaption>
-                    </figure>
+                <div id="data" class="icon-box">
+                 <img src="images/logo/icon-4.svg" alt="">
+                 <h3>Data Security</h3>
+                 <p>Augue pulvinar justo, fermentum fames aliquam accumsan vestibulum non. </p>
                 </div>
-            </div>
-            <div class="second">
-                <div class="cost">
-                    <figure>
+                <div id="cost" class="icon-box">
                         <img src="images/logo/icon-2.svg" alt="">
-                        <figcaption>
                             <h3>Cost Statistics</h3>
                             <p>Mattis urna ultricies non amet, purus in auctor non. Odio vulputate ac nibh.</p>
-                        </figcaption>
-                    </figure>
-                </div>
-                <div class="support">
-                    <figure>
+                        </div>
+            
+                <div id="support" class="icon-box">
                         <img src="images/logo/icon-5.svg" alt="">
-                        <figcaption>
+                       
                             <h3>Support 24/7</h3>
                             <p>A elementum, imperdiet enim, pretium etiam facilisi in aenean quam mauris.</p>
-                        </figcaption>
-                    </figure>
                 </div>
-            </div>
-            <div class="third">
-                <div class="regular">
-                    <figure>
+                <div id="regular" class="icon-box">
                         <img src="images/logo/icon-3.svg" alt="">
-                        <figcaption>
                             <h3>Regular Cashback</h3>
                             <p>Sit facilisis dolor arcu, fermentum vestibulum arcu elementum imperdiet eleifend.
-                            </p>
-                        </figcaption>
-                    </figure>
+                            </p>  
                 </div>
-                <div class="standard">
-                    <figure>
+                <div id="standard" class="icon-box">
                         <img src="images/logo/icon-6.svg" alt="">
-                        <figcaption>
                             <h3>Top Standards</h3>
                             <p>Faucibus cursus maecenas lorem cursus nibh. Sociis sit risus id. Sit facilisis
-                                dolor arcu.</p>
-                        </figcaption>
-                    </figure>
+                                dolor arcu.</p>  
                 </div>
         </div>
     </div>
-</div>
+    </div>
+</section>
 <!-- ///////////////////////////////////// -->
 
 </section>
@@ -257,12 +233,18 @@
     <div class="commentR">
         <div class="clientL">
             <figure>
-                <img src="src/img/testimonial.png" alt="">
+                <img class="rating-L" src="images/logo/rating-l.svg" alt="">
+                <img class="quotes-L" src="images/logo/quotes-l.svg" alt="">
+                <p>Sit pretium aliquam tempor, orci dolor sed maecenas rutrum sagittis. Laoreet posuere rhoncus, egestas lacus, egestas justo aliquam vel. Nisi vitae lectus hac hendrerit. Montes justo turpis sit amet.</p>
+                <img class="author-kvinna" src="images/logo/author-l.svg" alt="">
             </figure>
         </div>
         <div class="clientR">
             <figure>
-                <img src="src/img/testimonial (1).png" alt="">
+                <img class="rating-R" src="images/logo/rating-r.svg" alt="">
+                <img class="quotes-R" src="images/logo/quotes-r.svg" alt="">
+                <p>Nunc senectus leo vel venenatis accumsan vestibulum sollicitudin amet porttitor. Nisl bibendum nulla tincidunt eu enim ornare dictumst sit amet. Dictum pretium dolor tincidunt egestas eget nunc.</p>
+                <img class="author-man" src="images/logo/author-r.svg" alt="">
             </figure>
         </div>
     </div>
@@ -274,17 +256,17 @@
             <h3>Any questions? <br>Check out the FAQs</h3>
             <p>Still have unanswered questions and need to get in touch?</p>
         </div>
-        <div class="call">
-            <div class="phone">
+        <div class="contact-option">
+            <div class="contact-box">
                 <figure>
-                    <img src="src/img/phone.png" alt="">
+                    <img src="images/logo/icon-phone.svg" alt="">
                     <figcaption>Still have questions?</figcaption>
                 </figure>
                 <a href="">Contact us <i class="fa-solid fa-arrow-right"></i></a>
             </div>
-            <div class="whatsapp">
+            <div class="contact-box">
                 <figure>
-                    <img src="src/img/whts.png" alt="">
+                    <img src="images/logo/icon-whatssap.svg" alt="">
                     <figcaption>Don't like phone calls?</figcaption>
                 </figure>
                 <a href="">Contact us <i class="fa-solid fa-arrow-right"></i></a>
